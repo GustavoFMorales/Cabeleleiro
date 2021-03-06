@@ -21,17 +21,14 @@ body{
    text-align: center;
    padding-top: 185px;
    padding-bottom: 5px;
+   font-size: 1.8em;
+   padding-left: 5px;
    
-}
-#top-header li{
-    color:white;
-    display: inline;
-    margin: 10px;
-    font-size: 1.4em;   
 }
 #nav-header a{
     text-decoration: none;
     color: white;
+    padding-left: 15px;
 }
 #nav-header a:hover{
     border: 1px solid black;
@@ -121,6 +118,9 @@ body{
     color:  orange;
 }
 @media screen and (max-width: 800px){
+    a{
+        text-decoration: none;
+    }
     #top-header{
         background: black;
         width: 100%;
@@ -138,6 +138,7 @@ body{
         color: white;
         font-size: 25px;
         margin: 7px;
+        
 
     
     }
@@ -154,6 +155,7 @@ body{
         transition: width 0.3s;
     }
     #nav-heade  a{
+        display: inline;
         color:  white;
         font-size: 25px;
         display: block;
@@ -165,6 +167,10 @@ body{
         color:white;
         background: orange;
     
+    }
+    #container{
+        padding: 10px;
+        transition: margin-left 0.5s;
     }
     .footer{
         background: black;
@@ -205,6 +211,60 @@ body{
    }
 }
 @media screen and (max-width: 450px){
+    a{
+        text-decoration: none;
+    }
+    #top-header{
+        background: black;
+        width: 100%;
+        height: 170px;
+        color: white;
+        overflow: hidden;
+        background-image: url(../img/logo_preto.jpeg);
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: center top;
+    
+    }
+    .icon-menu{
+        display: inline;
+        color: white;
+        font-size: 25px;
+        margin: 7px;
+        
+
+    
+    }
+    #nav-header li{
+        display: inline;
+        height: 100%;
+        width: 0px;
+        background: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1; /* Sobre poem os outros elementos */
+        overflow: hidden;
+        transition: width 0.3s;
+    }
+    #nav-heade  a{
+        display: inline;
+        color:  white;
+        font-size: 25px;
+        display: block;
+        padding: 12px 10px 12px;
+    
+    }
+    #nav-header a:hover{ /* Quando o mouse passa por cima */
+    
+        color:white;
+        background: orange;
+    
+    }
+    #container{
+        padding: 10px;
+        transition: margin-left 0.5s;
+    }
     
     footer{
         background: black;
@@ -244,6 +304,60 @@ body{
 }
 
 @media screen and (max-width: 360px){
+    a{
+        text-decoration: none;
+    }
+    #top-header{
+        background: black;
+        width: 100%;
+        height: 170px;
+        color: white;
+        overflow: hidden;
+        background-image: url(../img/logo_preto.jpeg);
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: center top;
+    
+    }
+    .icon-menu{
+        display: inline;
+        color: white;
+        font-size: 25px;
+        margin: 7px;
+        
+
+    
+    }
+    #nav-header li{
+        display: inline;
+        height: 100%;
+        width: 0px;
+        background: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1; /* Sobre poem os outros elementos */
+        overflow: hidden;
+        transition: width 0.3s;
+    }
+    #nav-heade  a{
+        display: inline;
+        color:  white;
+        font-size: 25px;
+        display: block;
+        padding: 12px 10px 12px;
+    
+    }
+    #nav-header a:hover{ /* Quando o mouse passa por cima */
+    
+        color:white;
+        background: orange;
+    
+    }
+    #container{
+        padding: 10px;
+        transition: margin-left 0.5s;
+    }
     
     footer{
         background: black;
@@ -282,6 +396,60 @@ body{
 
 }
 @media screen and (max-width: 320px){
+    a{
+        text-decoration: none;
+    }
+    #top-header{
+        background: black;
+        width: 100%;
+        height: 170px;
+        color: white;
+        overflow: hidden;
+        background-image: url(../img/logo_preto.jpeg);
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: center top;
+    
+    }
+    .icon-menu{
+        display: inline;
+        color: white;
+        font-size: 25px;
+        margin: 7px;
+        
+
+    
+    }
+    #nav-header li{
+        display: inline;
+        height: 100%;
+        width: 0px;
+        background: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1; /* Sobre poem os outros elementos */
+        overflow: hidden;
+        transition: width 0.3s;
+    }
+    #nav-heade  a{
+        display: inline;
+        color:  white;
+        font-size: 25px;
+        display: block;
+        padding: 12px 10px 12px;
+    
+    }
+    #nav-header a:hover{ /* Quando o mouse passa por cima */
+    
+        color:white;
+        background: orange;
+    
+    }
+    #container{
+        padding: 10px;
+        transition: margin-left 0.5s;
+    }
     
     footer{
         background: black;
@@ -320,6 +488,60 @@ body{
 
 }
 @media screen and (max-width: 375px){
+    a{
+        text-decoration: none;
+    }
+    #top-header{
+        background: black;
+        width: 100%;
+        height: 170px;
+        color: white;
+        overflow: hidden;
+        background-image: url(../img/logo_preto.jpeg);
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: center top;
+    
+    }
+    .icon-menu{
+        display: inline;
+        color: white;
+        font-size: 25px;
+        margin: 7px;
+        
+
+    
+    }
+    #nav-header li{
+        display: inline;
+        height: 100%;
+        width: 0px;
+        background: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1; /* Sobre poem os outros elementos */
+        overflow: hidden;
+        transition: width 0.3s;
+    }
+    #nav-heade  a{
+        display: inline;
+        color:  white;
+        font-size: 25px;
+        display: block;
+        padding: 12px 10px 12px;
+    
+    }
+    #nav-header a:hover{ /* Quando o mouse passa por cima */
+    
+        color:white;
+        background: orange;
+    
+    }
+    #container{
+        padding: 10px;
+        transition: margin-left 0.5s;
+    }
     
     footer{
         background: black;
