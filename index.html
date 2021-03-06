@@ -9,20 +9,24 @@
     <title>Studio José Silva</title>
 </head>
 <body>
-   <header class="top-header">
-       <nav class="nav-header">
+   <header id="top-header">
+    <a href="#"  class="icon-menu" onclick="abrirMenu()">&#9776;</a>
+       <nav id="nav-header">
         <ul>
+          </li><a class="icon-menu" href="#" onclick="fecharMenu()">&times;</a></li>
             <li> <a href="#">Home</a></li>
             <li> <a href="#">A Empresa</a> </li>
             <li> <a href="">Serviços</a></li>
             <li> <a href="#">Contato</a> </li>
             <li> <a href="#">Agendamento</a></li>
             <li> <a href="#">Login</a></li>
+        
         </ul>
+            
        </nav>    
    </header>
 
-   <div class="container">
+   <div id="container">
        <div class="container-text">
         
        </div>   
@@ -60,7 +64,17 @@
         </div>
   </footer>
 
-    
+  <script>
+    function abrirMenu(){
+        document.getElementsById("nav-header").style.width = "250px";
+        document.getElementsById("container").style.marginLeft = "250px";
+    }
+
+    function fecharMenu(){
+        document.getElementsById("top-header").style.width = "0px";
+        document.getElementsById("container").style.marginLeft = "0px";
+    }
+</script>
         
 </body>
 </html>
