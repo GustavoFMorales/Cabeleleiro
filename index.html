@@ -3,74 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Cabeleleiro/style/index.css">
     <title>Studio José Silva</title>
 </head>
 <body>
-   <header id="top-header">
-    <a href="#"  class="icon-menu" onclick="abrirMenu()">&#9776;</a>
-       <nav id="nav-header">
-       
-          <a class="icon-menu" href="#" onclick="fecharMenu()">&times;</a></li>
-          <a href="#">Home</a>
-          <a href="#">A Empresa</a> 
-          <a href="#">Contato</a> 
-          <a href="#">Agendamento</a>
-          <a href="#">Login</a>        
-       </nav>    
-   </header>
-
-   <div id="container">
-       <div class="container-text">
-        
-       </div>   
-   </div>
-
-  <footer class="footer">
-
-        <div id="icons-1">
+    <header>
+        <input type="checkbox" id="chec">
+        <label for="chec">
+           <a href=""><i class="fas fa-bars"></i></a> 
+        </label>
+        <nav>
             <ul>
-              
-              <li><a id="telefone" href=""><i class="fas fa-phone-volume"></i></a></li>
-              <li> <a id="endereco" href=""><i class="fas fa-map-marker-alt"></i></a></li>
+                <li> <a href="">Home</a> </li>
+                <li> <a href="">A Empresa</a> </li>
+                <li> <a href="">Contato</a> </li>
+                <li> <a href="">Angendamento</a> </li>
+                <li> <a href="">Login</a> </li>
+            
             </ul>
-          
-        </div>
-  
-        <div id="paragrafo">
-  
-          <p id="p-contato">(11) 1234-5678 / (11) 1234-5678 </p>
-          <p id="p-endereco">
-              Av. Francisco Prestes Maia, 1301 <br>
-              Centro São Bernardo do Campo - SP 
-              CEP:09770-000
-          </p>
-  
-        </div>
-  
-        <div id="icons-2">
-          <ul>
+        </nav>
+    </header>
+    <main id="container">
+teste
+    </main>
+    <footer>
+        <ul>
             <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
-            <li><a href=""><i class="fab fa-instagram"></i></a></li>
             <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-          </ul>
-
-        </div>
-  </footer>
-
-  <script>
-    function abrirMenu(){
-        document.getElementsById("nav-header").style.width = "250px";
-        document.getElementsById("container").style.marginLeft = "250px";
-    }
-
-    function fecharMenu(){
-        document.getElementsById("nav-header").style.width = "0px";
-        document.getElementsById("container").style.marginLeft = "0px";
-    }
-</script>
-        
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fas fa-map-marker-alt"></i></a></li>
+        </ul>
+    </footer>
+    
 </body>
 </html>
