@@ -1,70 +1,80 @@
 *{
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 }
-
 body{
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-
 }
-nav a{
-    text-decoration: none;
-    color: black;
-}
-nav ul{
-    list-style: none;
-}
-input[type="checkbox"]{
-    display: none;
-}
-nav{
-    background-color:black;
-    width: 250px;
-    height: 100%;
-    left: -250px;
-    position: absolute;
-}
-input[type="checkbox"]:checked ~ nav{
-    transform: translateX(250px);
-}
-nav ul{
-    font-size: 1.5em;
-    top: 70px;
-    position: absolute; 
-    width: 100%;
-}
-nav a{
-    display: block;
-    padding: 20px 5px;
-    color:white
-}
-nav a:hover{
-    color: orange;
-}
-label{
-    font-size: 1.2em;
-    padding: 15px;
-    position: absolute;
-    z-index:1;
-}
-label a{
-    color: white ;
-}
-header{
-    background-color: black;
-    height: 150px;
+.top-header{
+    background: black;
     background-image: url(../img/logo_preto.jpeg);
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 350px;
+    background-size: 400px;
+    width: 100%;
+    height: 200px;
+}
+label i{
+    color: white;
+    font-size: 1.5em;
+}
+#check{
+    display: none;
+}
+#icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+.barra{
+    
+    background: black;
+    height: 140%;
+    width: 250px;
+    position: absolute;
+    transition: all .2s linear;
+    left: -300px;
+}
+nav{
+    
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    
+
+}
+nav i{
+    padding: 6px;
+}
+.link{
+    padding: 20px;
+    font-size: 1.5em;
+    transition: all 0.2s linear;
+    color: white;
+    
+}
+.link:hover{
+    background: orange;
+    color: white;
+}
+#check:checked ~.barra{
+    transform: translateX(300px);
+
 }
 #container{
     background-image: url(../img/fundo.jpeg);
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position: left center;
     width: 100%;
-    height: 400px;
+    height: 500px;
     overflow: hidden;
 }
 footer{
@@ -75,6 +85,7 @@ footer{
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 350px;
+
 
 }
 footer ul{
@@ -95,4 +106,79 @@ footer a{
 }
 footer a:hover{
     color: orange;
+}
+@media screen and (min-width:780px){
+    .top-header{
+        background: black;
+        background-image: url(../img/logo_preto.jpeg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 500px;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+}
+#icone{
+    display:none;
+    width: 100%;
+}
+
+nav a{
+    display: inline-block; 
+    margin-left: 290%;
+   
+    
+
+nav i{
+    display: none ;
+}
+.barra nav a:hover{
+    background: orange;
+    font-size: 1.8em;
+}
+
+
+#container{
+    background-image: url(../img/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    background-size: cover;
+}
+footer{
+    background: black;
+    width: 100%;
+    height: 200px;
+    background-image:url(../img/logo_preto.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 350px;
+    margin: 0;
+    padding: 5px;
+
+
+}
+footer ul{
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 42% ;
+    
+    
+}
+footer li{
+    display: inline;
+    text-align: center;
+    padding: 3px;
+    font-size: 1.8em;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: orange;
+}
 }
