@@ -120,14 +120,19 @@ footer a:hover{
 }
 #icone{
     display:none;
-    width: 100%;
 }
 
-nav a{
-    display: inline-block; 
-    margin-left: 290%;
-   
+nav{
+    display: inline-flex; 
+    margin-left: 265%;
+    margin-right: 180%;
+    margin-top: 45%;
     
+   
+}  
+.fa-home,.fas{
+    display: none ;
+}
 
 nav i{
     display: none ;
@@ -164,8 +169,8 @@ footer ul{
     text-align: center;
     list-style: none;
     position: absolute;
-    margin-top: 17%;
-    margin-left: 42% ;
+    margin-top: 10%;
+    margin-left: 45.5% ;
     
     
 }
